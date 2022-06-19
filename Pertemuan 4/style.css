@@ -1,0 +1,16 @@
+.Title{
+    margin:10px 15px;
+    padding: 5px 0;
+    background: cyan;
+    border-radius: 15px
+}
+
+.menu{
+    margin: 10px 15px; 
+    padding: 10px;
+    background: #ecfa91; 
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    column-gap: 12px; 
+    border-radius: 15px;
+}

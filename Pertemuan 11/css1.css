@@ -1,0 +1,38 @@
+body{
+    background-image: url('https://i.pinimg.com/564x/80/7a/c1/807ac1cb36c9e62df3441f8a101f2176.jpg');
+    background-size: cover;
+}
+
+.contain{
+font-family: 'Times New Roman', Times, serif;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+form{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 625px;
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.button{
+    gap: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+button,input{
+    padding: 4px 8px;
+    width: 100%;
+    font-size: 100%;
+}
